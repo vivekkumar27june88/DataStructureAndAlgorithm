@@ -26,17 +26,7 @@ public class SelectionSort<T extends Comparable<T>> {
 
 	static public void DriverProgramForSelectionSort() {
 
-		Integer[] arr1 = new Integer[10];
-		arr1[0] = 10;
-		arr1[1] = -7;
-		arr1[2] = 4;
-		arr1[3] = 9;
-		arr1[4] = 40;
-		arr1[5] = 100;
-		arr1[6] = 23;
-		arr1[7] = 1;
-		arr1[8] = -5;
-		arr1[9] = 40;
+		Integer[] arr1 = new Integer[] {10, -7, 4, 9, 40, 100, 23, 1, -5, 40};
 		System.out.printf("%20s", "Original Array is : ");
 		for (Integer item : arr1) {
 			System.out.printf("%-5d", item);
@@ -52,17 +42,7 @@ public class SelectionSort<T extends Comparable<T>> {
 		}
 		System.out.println("");
 
-		Integer[] arr2 = new Integer[10];
-		arr2[0] = 1;
-		arr2[1] = 2;
-		arr2[2] = 3;
-		arr2[3] = 4;
-		arr2[4] = 5;
-		arr2[5] = 6;
-		arr2[6] = 7;
-		arr2[7] = 8;
-		arr2[8] = 9;
-		arr2[9] = 10;
+		Integer[] arr2 = new Integer[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 		System.out.printf("%20s", "Original Array is : ");
 		for (Integer item : arr2) {
 			System.out.printf("%-5d", item);

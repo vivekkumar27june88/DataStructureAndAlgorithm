@@ -3,7 +3,8 @@
  */
 //import dsa.sorting.BubbleSort;
 //import dsa.sorting.InsertionSort;
-import dsa.sorting.SelectionSort;
+//import dsa.sorting.SelectionSort;
+import dsa.sorting.MergeSort;
 
 public class DataStructureAndAlgorithm {
 
@@ -14,6 +15,7 @@ public class DataStructureAndAlgorithm {
 		 */
 		//InsertionSort.DriverProgramForInsertionSort();
 		//InsertionSort.DriverProgramForInsertionSort();
-		SelectionSort.DriverProgramForSelectionSort();
+		//SelectionSort.DriverProgramForSelectionSort();
+		MergeSort.DriverProgramForMergeSort();
 	}	
 }
